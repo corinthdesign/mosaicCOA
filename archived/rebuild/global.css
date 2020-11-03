@@ -1,0 +1,287 @@
+/*-------------Global Style Variables-----------*/
+
+:root {
+  /*-----Color Palette-------*/
+  --primary-color: #019AB7;
+  --secondary-color: #0164B1;
+  --accent-color: #FDE309;
+  --dark-accent-color: #003064;
+  --background-color-default: var(--primary-color);
+  --bluePattern: url("images/bluePattern.jpg");
+  --smoothSnapTransition: all .4s cubic-bezier(.86,.06,.6,.61);
+
+  /*-----Font Families--------*/
+  --sans-serif: "Alegreya Sans SC", sans-serif;
+  --serif: "Girassol", serif;
+  --display: "Rock Salt", cursive;
+
+  /*------SVG Specific--------*/
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/*-------------Default Font Styling-------------*/
+
+h1, h2, h3, h4, h5 {
+  color: var(--primary-color);
+}
+
+h1 {
+  font-family: var(--display);
+  font-size: 2.75em;
+}
+
+h2 {
+  font-family: var(--sans-serif);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: var(--sans-serif);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-size: 1.75em;
+}
+
+h4 {
+  font-family: var(--sans-serif);
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.25em;
+  letter-spacing: 0.125em;
+}
+
+h5 {
+  font-family: var(--serif);
+  text-transform: uppercase;
+  font-size: 1.05em;
+}
+
+p {
+  font-family: var(--sans-serif);
+  font-weight: 200;
+}
+
+a {
+  font-family: var(--sans-serif);
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+/*------------Default Block Styling--------*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color-default);
+}
+
+div {
+  min-height: 100px;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.accent {
+  background-color: var(--accent-color);
+}
+
+.darkAccent {
+  background-color: var(--dark-accent-color);
+}
+
+.pattern {
+  background: var(--bluePattern);
+  background-size: cover;
+  background-position: center;
+}
+
+/*-------------Navigation-----------*/
+
+.nav {
+  background-color: var(--background-default-color);
+  height: 100vh;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 10vh 5vw;
+  text-align: center;
+}
+
+
+/*==================MOBILE STYLES===================================*/
+
+@media screen and (max-width: 600px) {
+
+  /*-------------Default Font Styling-------------*/
+
+  h1, h2, h3, h4, h5 {
+    color: var(--primary-color);
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-size: 3em;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: var(--sans-serif);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.15em;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: var(--sans-serif);
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.5em;
+    letter-spacing: 0.125em;
+    text-align: center;
+  }
+
+  h5 {
+    font-family: var(--serif);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  p {
+    font-family: var(--sans-serif);
+    font-weight: 200;
+    font-size: 1.15em;
+    padding: 0 1em;
+  }
+
+  a {
+    font-family: var(--sans-serif);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.15em;
+    color: var(--secondary-color);
+  }
+
+  /*------------Default Block Styling--------*/
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+  }
+
+  div {
+    min-height: 100px;
+  }
+
+  .primary {
+    background-color: var(--primary-color);
+  }
+
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .accent {
+    background-color: var(--accent-color);
+  }
+
+  .darkAccent {
+    background-color: var(--dark-accent-color);
+  }
+
+  .pattern {
+    background: var(--bluePattern);
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*-------------Navigation-----------*/
+
+  .nav {
+    position: fixed;
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 3vh 0vw;
+    left: -100vw;
+    text-align: center;
+    z-index: 1000;
+    transition: var(--smoothSnapTransition);
+  }
+
+  .nav h3 {
+    color: var(--white);
+    font-weight: 400;
+  }
+
+  .nav svg {
+    padding: 2vh 0;
+    width: 40%;
+    height: 10%;
+    transform: translateX(100vw);
+    transition: var(--smoothSnapTransition);
+  }
+
+  .exit {
+    left: -100vw;
+    background-color: var(--white);
+    display: block;
+    margin: 0 auto;
+    border-radius: 10000px;
+    position: relative;
+  }
+
+  .st0, .st1, .st2, .st3 {
+    fill: var(--white);
+    transition: var(--smoothSnapTransition);
+  }
+
+
+  .nav.active {
+    left: 0vw;
+    transition: var(--smoothSnapTransition);
+  }
+
+  .nav.active svg {
+    padding: 2vh 0;
+    width: 40%;
+    transform: translateX(100vw);
+  }
+
+  /*------------Blocks-------------*/
+
+  .block {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+}

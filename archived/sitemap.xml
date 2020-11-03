@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://index.html/index.html</loc>
+    <lastmod>2018-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/index.html"/>
+  </url>
+  <url>
+    <loc>http://index.html/home.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/home.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/cross.png</image:loc>
+      <image:caption>Cross icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/heart.png</image:loc>
+      <image:caption>Heart icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora2.png</image:loc>
+      <image:caption>Mosaic Church of Aurora icon with black text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7095.png</image:loc>
+      <image:caption>Facebook Icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7153.png</image:loc>
+      <image:caption>Blog Icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/blog.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/blog.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7095.png</image:loc>
+      <image:caption>Facebook Icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7153.png</image:loc>
+      <image:caption>Blog Icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/contact.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/contact.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7095.png</image:loc>
+      <image:caption>Facebook Icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7153.png</image:loc>
+      <image:caption>Blog Icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/jesus.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/jesus.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7095.png</image:loc>
+      <image:caption>Facebook Icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7153.png</image:loc>
+      <image:caption>Blog Icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/staff.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/staff.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7095.png</image:loc>
+      <image:caption>Facebook Icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7153.png</image:loc>
+      <image:caption>Blog Icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/21199344_117043592291190_4870172654986299701_o-crop-u21437.png</image:loc>
+      <image:caption>Pastor Reid Hettich</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/aatik-tasneem-138230-crop-u21484.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/edward-cisneros-411013-crop-u21515.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/home-espanol.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/home-espanol.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/cross.png</image:loc>
+      <image:caption>Cross icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/heart.png</image:loc>
+      <image:caption>Heart icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora2.png</image:loc>
+      <image:caption>Mosaic Church of Aurora icon with black text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23720.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23722.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/blog-espanol.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/blog-espanol.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23720.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23722.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/jes%C3%BAs.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/jesús.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23720.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23722.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/contacto.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/contacto.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23720.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23722.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/what-we-believe.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/what-we-believe.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/wesleyan_church_logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7095.png</image:loc>
+      <image:caption>Facebook Icon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u7153.png</image:loc>
+      <image:caption>Blog Icon</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/personal.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/personal.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23720.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23722.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/21199344_117043592291190_4870172654986299701_o-crop-u23552.png</image:loc>
+      <image:caption>Pastor Reid Hettich</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/aatik-tasneem-138230-crop-u23543.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/edward-cisneros-411013-crop-u23547.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/lo-que-creemos.html</loc>
+    <lastmod>2018-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/lo-que-creemos.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurorawhite.png</image:loc>
+      <image:caption>Mosaic Church of Aurora Logo with white text</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/wesleyan_church_logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23720.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/socialmedia1-crop-u23722.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/mosaicchrchofaurora3.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://index.html/assets/animated-logo.gif</loc>
+    <lastmod>2018-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

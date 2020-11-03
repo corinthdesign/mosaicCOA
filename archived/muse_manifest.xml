@@ -1,0 +1,425 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="index.html,mosaic.corinthdesign.com,mosaicofaurora.com" resolutions="1x" timestamp="1528776394382">
+  <folder name="css">
+    <file name="site_global.css" crc="121753729"/>
+    <file name="master_main-navigation-espanol.css" crc="3855559776" ref="jesús:personal:lo-que-creemos:contacto:blog-espanol:home-espanol"/>
+    <file name="master_main-navigation.css" crc="3988174448" ref="blog:staff:jesus:what-we-believe:contact:home"/>
+    <file name="blog.css" crc="4233778336" ref="blog"/>
+    <file name="staff.css" crc="3937265328" ref="staff"/>
+    <file name="jes_s.css" crc="78575148" ref="jesús"/>
+    <file name="personal.css" crc="4285887936" ref="personal"/>
+    <file name="lo-que-creemos.css" crc="287536650" ref="lo-que-creemos"/>
+    <file name="jesus.css" crc="71748722" ref="jesus"/>
+    <file name="what-we-believe.css" crc="412103065" ref="what-we-believe"/>
+    <file name="index.css" crc="59296706" ref="index"/>
+    <file name="contacto.css" crc="3981008455" ref="contacto"/>
+    <file name="contact.css" crc="4147664302" ref="contact"/>
+    <file name="blog-espanol.css" crc="4068752952" ref="blog-espanol"/>
+    <file name="home.css" crc="59629769" ref="home"/>
+    <file name="home-espanol.css" crc="337929809" ref="home-espanol"/>
+  </folder>
+  <folder name="fonts">
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+    <file name="icon-megapack-webfont.woff" crc="4049510370"/>
+    <file name="icon-megapack-webfont.eot" crc="4255697507"/>
+    <file name="icon-megapack-webfont.svg" crc="503597411"/>
+  </folder>
+  <folder name="assets">
+    <file name="animated-logo.gif" crc="26291819" seo="true" mt="1517946936000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos"/>
+    <file name="museutils.js" crc="3803043152" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos"/>
+    <file name="museconfig.js" crc="4153641093" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos"/>
+    <file name="jquery.watch.js" crc="99325471" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="phone>home:phone>jesus:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>blog-espanol:phone>personal:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal"/>
+    <file name="webpro.js" crc="242022427" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:index:home-espanol"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:index:home-espanol"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:index:home-espanol"/>
+    <file name="touchswipe.js" crc="4066113679" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:index:home-espanol"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos"/>
+    <file name="require.js" crc="4157109226" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>index:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:index:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos"/>
+  </folder>
+  <folder name="images">
+    <file name="diverse.gif" crc="4254398027" ref="phone>home:phone>home-espanol">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home-espanol" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="phone>home:phone>index:phone>home-espanol:home:index:home-espanol"/>
+    <file name="img_0484-u18952-fr.jpg" crc="440325396" ref="phone>home"/>
+    <file name="img_0659-u18957-fr.jpg" crc="3874948239" ref="phone>home"/>
+    <file name="img_0544.jpg" crc="4207831322" ref="phone>home:phone>home-espanol">
+      <caption webpage="home" alt=""/>
+      <caption webpage="home-espanol" alt=""/>
+    </file>
+    <file name="10 location icon-u19056.png" crc="317457702" ref="phone>home"/>
+    <file name="img_0373-u18996-fr.jpg" crc="4021930304" ref="phone>home"/>
+    <file name="amaury-salas-324504-u19003-fr.jpg" crc="126656010" ref="phone>home"/>
+    <file name="daniel-posthuma-255479-u14594-fr-u19011-fr.jpg" crc="3969724230" ref="phone>home"/>
+    <file name="twinkling-lights-626-u19024-fr.jpg" crc="345403715" ref="phone>home"/>
+    <file name="cross.png" crc="55094430" seo="true" ref="phone>home:phone>home-espanol:home:home-espanol">
+      <caption webpage="home-espanol" alt="Cross icon"/>
+      <caption webpage="home" alt="Cross icon"/>
+    </file>
+    <file name="book-u19058.png" crc="3760164923" ref="phone>home"/>
+    <file name="heart.png" crc="391365280" seo="true" ref="phone>home:phone>home-espanol:home:home-espanol">
+      <caption webpage="home-espanol" alt="Heart icon"/>
+      <caption webpage="home" alt="Heart icon"/>
+    </file>
+    <file name="mosaicchrchofaurora.png" crc="4203099245" seo="true" ref="phone>home:phone>home-espanol:home:blog:contact:jesus:staff:what-we-believe">
+      <caption webpage="staff" alt=""/>
+      <caption webpage="lo-que-creemos" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="jesus" alt=""/>
+      <caption webpage="home-espanol" alt="Mosaic Church of Aurora icon with black text"/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog-espanol" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="contacto" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="what-we-believe" alt=""/>
+      <caption webpage="personal" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="jesús" alt="Mosaic Church of Aurora logo with black text"/>
+    </file>
+    <file name="mosaicchrchofaurora2.png" crc="146389508" seo="true" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:home-espanol">
+      <caption webpage="staff" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="staff" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="lo-que-creemos" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="lo-que-creemos" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="contacto" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="contacto" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="personal" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="personal" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="home" alt="Mosaic Church of Aurora icon with black text"/>
+      <caption webpage="blog" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="blog" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="jesus" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="jesus" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="blog-espanol" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="blog-espanol" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="contact" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="contact" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="what-we-believe" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="what-we-believe" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="home-espanol" alt="Mosaic Church of Aurora icon with black text"/>
+      <caption webpage="jesús" alt="Mosaic Church of Aurora logo with black text"/>
+      <caption webpage="jesús" alt="Mosaic Church of Aurora logo with black text"/>
+    </file>
+    <file name="socialmedia1-crop-u7985.png" crc="314955127" seo="true" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>what-we-believe">
+      <caption webpage="blog" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="home" alt=""/>
+      <caption webpage="staff" alt=""/>
+      <caption webpage="jesus" alt=""/>
+      <caption webpage="what-we-believe" alt=""/>
+    </file>
+    <file name="mosaicchrchofaurorawhite.png" crc="499031057" seo="true" ref="phone>home:phone>jesus:phone>contact:phone>blog:phone>staff:phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>what-we-believe:phone>lo-que-creemos:home:blog:contact:jesus:staff:home-espanol:jesús:contacto:blog-espanol:personal:what-we-believe:lo-que-creemos">
+      <caption webpage="staff" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="lo-que-creemos" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="contacto" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="personal" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="home" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="blog" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="jesus" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="blog-espanol" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="contact" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="what-we-believe" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="home-espanol" alt="Mosaic Church of Aurora Logo with white text"/>
+      <caption webpage="jesús" alt="Mosaic Church of Aurora Logo with white text"/>
+    </file>
+    <file name="tom-barrett-318952-u17901-fr.jpg" crc="3805414648" ref="phone>jesus:phone>jesús"/>
+    <file name="aaron-burden-58729.jpg" crc="494396442" ref="phone>jesus:phone>jesús:jesus:jesús">
+      <caption webpage="jesus" alt=""/>
+      <caption webpage="jesús" alt=""/>
+    </file>
+    <file name="corentin-marzin-87042-u17903-fr.jpg" crc="215748842" ref="phone>jesus"/>
+    <file name="ben-white-194220.jpg" crc="4177992146" ref="phone>jesus:phone>jesús">
+      <caption webpage="jesus" alt=""/>
+      <caption webpage="jesús" alt=""/>
+    </file>
+    <file name="nina-strehl-140734.jpg" crc="4229673680" ref="phone>jesus:phone>jesús">
+      <caption webpage="jesus" alt=""/>
+      <caption webpage="jesús" alt=""/>
+    </file>
+    <file name="goashape-61244-unsplash-u25612-fr.png" crc="4212130161" ref="phone>blog:phone>blog-espanol"/>
+    <file name="nathan-dumlao-314494-u26504-fr.jpg" crc="4218114213" ref="phone>staff:phone>personal"/>
+    <file name="aatik-tasneem-138230-crop-u26511.png" crc="4056906336" seo="true" ref="phone>staff">
+      <caption webpage="staff" alt=""/>
+    </file>
+    <file name="edward-cisneros-411013-crop-u26515.png" crc="146821449" seo="true" ref="phone>staff">
+      <caption webpage="staff" alt=""/>
+    </file>
+    <file name="21199344_117043592291190_4870172654986299701_o-crop-u26507.png" crc="466770465" seo="true" ref="phone>staff">
+      <caption webpage="staff" alt="Pastor Reid Hettich "/>
+    </file>
+    <file name="daniel-posthuma-255479-u27170-fr.jpg" crc="4105084025" ref="phone>index"/>
+    <file name="mosaicchrchofaurorawhite-u27171.png" crc="118780575" ref="phone>index"/>
+    <file name="socialmedia1-crop-u28581.png" crc="314955127" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0484-u27348-fr.jpg" crc="3990311725" ref="phone>home-espanol"/>
+    <file name="img_0659-u27326-fr.jpg" crc="4117561351" ref="phone>home-espanol"/>
+    <file name="img_0373-u27375-fr.jpg" crc="4225560982" ref="phone>home-espanol"/>
+    <file name="amaury-salas-324504-u27369-fr.jpg" crc="105972917" ref="phone>home-espanol"/>
+    <file name="daniel-posthuma-255479-u14594-fr-u27380-fr.jpg" crc="265081057" ref="phone>home-espanol"/>
+    <file name="twinkling-lights-626-u27359-fr.jpg" crc="4029468106" ref="phone>home-espanol"/>
+    <file name="book-u27355.png" crc="3760164923" ref="phone>home-espanol"/>
+    <file name="10 location icon-u27363.png" crc="317457702" ref="phone>home-espanol"/>
+    <file name="socialmedia1-crop-u28923.png" crc="314955127" seo="true" ref="phone>home-espanol:phone>jesús:phone>contacto:phone>blog-espanol:phone>personal:phone>lo-que-creemos">
+      <caption webpage="lo-que-creemos" alt=""/>
+      <caption webpage="personal" alt=""/>
+      <caption webpage="jesús" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="home-espanol" alt=""/>
+      <caption webpage="blog-espanol" alt=""/>
+    </file>
+    <file name="corentin-marzin-87042-u27633-fr.jpg" crc="411757996" ref="phone>jesús"/>
+    <file name="aatik-tasneem-138230-crop-u27869.png" crc="4056906336" seo="true" ref="phone>personal">
+      <caption webpage="personal" alt=""/>
+    </file>
+    <file name="edward-cisneros-411013-crop-u27864.png" crc="146821449" seo="true" ref="phone>personal">
+      <caption webpage="personal" alt=""/>
+    </file>
+    <file name="21199344_117043592291190_4870172654986299701_o-crop-u27873.png" crc="50030707" seo="true" ref="phone>personal">
+      <caption webpage="personal" alt="Pastor Reid Hettich "/>
+    </file>
+    <file name="wesleyan_church_logo.svg" crc="4216227329" seo="true" ref="phone>what-we-believe:phone>lo-que-creemos:what-we-believe:lo-que-creemos">
+      <caption webpage="what-we-believe" alt=""/>
+      <caption webpage="lo-que-creemos" alt=""/>
+    </file>
+    <file name="wesleyan_church_logo_poster_.png" crc="4036845156" ref="phone>what-we-believe:what-we-believe"/>
+    <file name="favicon.ico" crc="4272447384" ref="home"/>
+    <file name="green brushstroke-u1821-5-fr.png" crc="3900776630" ref="home:home-espanol"/>
+    <file name="green brushstroke.png" crc="222350101" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt=" HOME"/>
+      <caption webpage="home-espanol" alt=" HOME"/>
+      <caption webpage="home" alt=" HOME"/>
+      <caption webpage="home" alt=" HOME"/>
+    </file>
+    <file name="orange brushstroke-u1824-5-fr.png" crc="3900776630" ref="home:home-espanol"/>
+    <file name="orange brushstroke.png" crc="4166326876" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt="ACERCA DE MOSAIC"/>
+      <caption webpage="home-espanol" alt="ACERCA DE MOSAIC"/>
+      <caption webpage="home" alt=" ABOUT MOSAIC"/>
+      <caption webpage="home" alt=" ABOUT MOSAIC"/>
+    </file>
+    <file name="blue brushstroke-u1822-5-fr.png" crc="3900776630" ref="home:home-espanol"/>
+    <file name="blue brushstroke.png" crc="3771120552" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt=" TRANSFORMAR"/>
+      <caption webpage="home-espanol" alt=" TRANSFORMAR"/>
+      <caption webpage="home" alt=" TRANSFORM"/>
+      <caption webpage="home" alt=" TRANSFORM"/>
+    </file>
+    <file name="red brushstroke-u1823-5-fr.png" crc="3900776630" ref="home:home-espanol"/>
+    <file name="red brushstroke.png" crc="3905596784" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt=" TOMAR ACCIÓN"/>
+      <caption webpage="home-espanol" alt=" TOMAR ACCIÓN"/>
+      <caption webpage="home" alt=" TAKE ACTION"/>
+      <caption webpage="home" alt=" TAKE ACTION"/>
+    </file>
+    <file name="moon-482456b-w.jpg" crc="4154277919" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="diverse.png" crc="4152693699" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="img_0484-u13433-fr.png" crc="3925386415" ref="home"/>
+    <file name="img_0659-u13435-fr.png" crc="102900237" ref="home"/>
+    <file name="10 location icon-u4727.png" crc="503666476" ref="home"/>
+    <file name="daniel-posthuma-255479b-w.jpg" crc="186644285" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="img_0373-u14584-fr.png" crc="3851940723" ref="home"/>
+    <file name="amaury-salas-324504-u14589-fr.jpg" crc="267112781" ref="home:home-espanol"/>
+    <file name="daniel-posthuma-255479-u14594-fr.jpg" crc="448728983" ref="home:home-espanol"/>
+    <file name="twinkling-lights-626.jpg" crc="293775717" ref="home:home-espanol">
+      <caption webpage="home-espanol" alt=""/>
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="book-u11430.png" crc="3881902261" ref="home"/>
+    <file name="u6845-4.png" crc="4110463531" ref="home:blog:contact:jesus:staff:what-we-believe"/>
+    <file name="socialmedia1-crop-u7095.png" crc="214331550" seo="true" ref="home:blog:contact:jesus:staff:what-we-believe">
+      <caption webpage="staff" alt="Facebook Icon"/>
+      <caption webpage="blog" alt="Facebook Icon"/>
+      <caption webpage="jesus" alt="Facebook Icon"/>
+      <caption webpage="contact" alt="Facebook Icon"/>
+      <caption webpage="what-we-believe" alt="Facebook Icon"/>
+      <caption webpage="home" alt="Facebook Icon"/>
+    </file>
+    <file name="socialmedia1-crop-u7153.png" crc="186005225" seo="true" ref="home:blog:contact:jesus:staff:what-we-believe">
+      <caption webpage="staff" alt="Blog Icon"/>
+      <caption webpage="blog" alt="Blog Icon"/>
+      <caption webpage="jesus" alt="Blog Icon"/>
+      <caption webpage="contact" alt="Blog Icon"/>
+      <caption webpage="what-we-believe" alt="Blog Icon"/>
+      <caption webpage="home" alt="Blog Icon"/>
+    </file>
+    <file name="goashape-61244-unsplash.jpg" crc="355956693" ref="blog:blog-espanol">
+      <caption webpage="blog" alt=""/>
+    </file>
+    <file name="yeshi-kangrang-338592.jpg" crc="210291294" ref="contact:contacto">
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="img_0143.jpg" crc="59464912" ref="contact:contacto">
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="tom-barrett-318952.jpg" crc="498172084" ref="jesus:jesús">
+      <caption webpage="jesus" alt=""/>
+      <caption webpage="jesús" alt=""/>
+    </file>
+    <file name="corentin-marzin-87042.jpg" crc="3954754229" ref="jesus:jesús">
+      <caption webpage="jesus" alt=""/>
+      <caption webpage="jesús" alt=""/>
+    </file>
+    <file name="ben-white-194220-u15932-fr.jpg" crc="4216293860" ref="jesus:jesús"/>
+    <file name="nina-strehl-140734-u15937-fr.jpg" crc="4288314207" ref="jesus:jesús"/>
+    <file name="nathan-dumlao-314494.jpg" crc="3765856175" ref="staff:personal">
+      <caption webpage="staff" alt=""/>
+    </file>
+    <file name="21199344_117043592291190_4870172654986299701_o-crop-u21437.png" crc="3820729242" seo="true" ref="staff">
+      <caption webpage="staff" alt="Pastor Reid Hettich "/>
+    </file>
+    <file name="aatik-tasneem-138230-crop-u21484.png" crc="3835160215" seo="true" ref="staff">
+      <caption webpage="staff" alt=""/>
+    </file>
+    <file name="edward-cisneros-411013-crop-u21515.png" crc="4227121983" seo="true" ref="staff">
+      <caption webpage="staff" alt=""/>
+    </file>
+    <file name="daniel-posthuma-255479.jpg" crc="3908871145" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mosaicchrchofaurorawhite-u22398.png" crc="430714791" ref="index"/>
+    <file name="img_0484-u22861-fr.png" crc="85108420" ref="home-espanol"/>
+    <file name="img_0659-u22837-fr.png" crc="3873321655" ref="home-espanol"/>
+    <file name="10 location icon-u22937.png" crc="503666476" ref="home-espanol"/>
+    <file name="img_0373-u22904-fr.png" crc="95816490" ref="home-espanol"/>
+    <file name="book-u22933.png" crc="3881902261" ref="home-espanol"/>
+    <file name="u23702-4.png" crc="4110463531" ref="home-espanol:jesús:contacto:blog-espanol:personal:lo-que-creemos"/>
+    <file name="socialmedia1-crop-u23720.png" crc="214331550" seo="true" ref="home-espanol:jesús:contacto:blog-espanol:personal:lo-que-creemos">
+      <caption webpage="jesús" alt=""/>
+      <caption webpage="blog-espanol" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="lo-que-creemos" alt=""/>
+      <caption webpage="personal" alt=""/>
+      <caption webpage="home-espanol" alt=""/>
+    </file>
+    <file name="socialmedia1-crop-u23722.png" crc="186005225" seo="true" ref="home-espanol:jesús:contacto:blog-espanol:personal:lo-que-creemos">
+      <caption webpage="jesús" alt=""/>
+      <caption webpage="blog-espanol" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="lo-que-creemos" alt=""/>
+      <caption webpage="personal" alt=""/>
+      <caption webpage="home-espanol" alt=""/>
+    </file>
+    <file name="21199344_117043592291190_4870172654986299701_o-crop-u23552.png" crc="363152153" seo="true" ref="personal">
+      <caption webpage="personal" alt="Pastor Reid Hettich "/>
+    </file>
+    <file name="aatik-tasneem-138230-crop-u23543.png" crc="3835160215" seo="true" ref="personal">
+      <caption webpage="personal" alt=""/>
+    </file>
+    <file name="edward-cisneros-411013-crop-u23547.png" crc="4227121983" seo="true" ref="personal">
+      <caption webpage="personal" alt=""/>
+    </file>
+    <file name="mosaicchrchofaurora3.png" crc="4203099245" seo="true" ref="home-espanol:jesús:contacto:blog-espanol:personal:lo-que-creemos">
+      <caption webpage="lo-que-creemos" alt=""/>
+      <caption webpage="blog-espanol" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="jesús" alt=""/>
+      <caption webpage="personal" alt=""/>
+      <caption webpage="home-espanol" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_main-navigation-espanol.css" crc="3891270390" ref="phone>home-espanol:phone>blog-espanol:phone>contacto:phone>lo-que-creemos:phone>jesús:phone>personal"/>
+      <file name="master_main-navigation.css" crc="4251410667" ref="phone>what-we-believe:phone>jesus:phone>blog:phone>home:phone>contact:phone>staff"/>
+      <file name="home-espanol.css" crc="489899226" ref="phone>home-espanol"/>
+      <file name="index.css" crc="153040659" ref="phone>index"/>
+      <file name="blog-espanol.css" crc="512246796" ref="phone>blog-espanol"/>
+      <file name="what-we-believe.css" crc="91666813" ref="phone>what-we-believe"/>
+      <file name="contacto.css" crc="188500117" ref="phone>contacto"/>
+      <file name="jesus.css" crc="176061824" ref="phone>jesus"/>
+      <file name="blog.css" crc="3979042115" ref="phone>blog"/>
+      <file name="lo-que-creemos.css" crc="3902683116" ref="phone>lo-que-creemos"/>
+      <file name="home.css" crc="3973665881" ref="phone>home"/>
+      <file name="contact.css" crc="3759974419" ref="phone>contact"/>
+      <file name="jes_s.css" crc="4092166611" ref="phone>jesús"/>
+      <file name="staff.css" crc="139205869" ref="phone>staff"/>
+      <file name="personal.css" crc="4053477378" ref="phone>personal"/>
+    </folder>
+    <file name="home.html" crc="183672869" seo="true" mt="1528772277184" redirect="true"/>
+    <file name="jesus.html" crc="123215698" seo="true" mt="1528772277184" redirect="true"/>
+    <file name="contact.html" crc="3777188000" seo="true" mt="1528772277184" redirect="true"/>
+    <file name="blog.html" crc="4008639708" seo="true" mt="1528772277184" redirect="true"/>
+    <file name="staff.html" crc="36307326" seo="true" mt="1528772277184" redirect="true"/>
+    <file name="index.html" crc="374049379" seo="true" mt="1528772277190" redirect="true"/>
+    <file name="home-espanol.html" crc="3926346106" seo="true" mt="1528772277187" redirect="true"/>
+    <file name="jesús.html" crc="3777323012" seo="true" mt="1528772277187" redirect="true"/>
+    <file name="contacto.html" crc="447722620" seo="true" mt="1528772277187" redirect="true"/>
+    <file name="blog-espanol.html" crc="4173132320" seo="true" mt="1528772277187" redirect="true"/>
+    <file name="personal.html" crc="3834977502" seo="true" mt="1528772277187" redirect="true"/>
+    <file name="what-we-believe.html" crc="4059823335" seo="true" mt="1528772277184" redirect="true"/>
+    <file name="lo-que-creemos.html" crc="253979850" seo="true" mt="1528772277187" redirect="true"/>
+  </folder>
+  <file name="home.html" crc="511139655" seo="true" mt="1528776357754" redirect="true"/>
+  <file name="blog.html" crc="3876417408" seo="true" mt="1528776357754" redirect="true"/>
+  <file name="contact.html" crc="156605405" seo="true" mt="1528776357754" redirect="true"/>
+  <file name="jesus.html" crc="309051735" seo="true" mt="1528776357754" redirect="true"/>
+  <file name="staff.html" crc="96440052" seo="true" mt="1528776357754" redirect="true"/>
+  <file name="index.html" crc="4270367183" seo="true" mt="1522348312533" redirect="true"/>
+  <file name="home-espanol.html" crc="4138339186" seo="true" mt="1528776360179" redirect="true"/>
+  <file name="jesús.html" crc="4071895894" seo="true" mt="1528776360179" redirect="true"/>
+  <file name="contacto.html" crc="509174027" seo="true" mt="1528776360179" redirect="true"/>
+  <file name="blog-espanol.html" crc="338865114" seo="true" mt="1528776360179" redirect="true"/>
+  <file name="personal.html" crc="4131277794" seo="true" mt="1528776360179" redirect="true"/>
+  <file name="what-we-believe.html" crc="536406327" seo="true" mt="1528776357754" redirect="true"/>
+  <file name="lo-que-creemos.html" crc="3928681236" seo="true" mt="1528776360179" redirect="true"/>
+</manifest>

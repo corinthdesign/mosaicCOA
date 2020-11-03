@@ -1,0 +1,1226 @@
+/*-------------Global Style Variables-----------*/
+
+:root {
+  /*-----Color Palette-------*/
+  --primary-color: #3AA7DF;
+  --secondary-color: rgba(90, 90, 90, 1);
+  --accent-color: #FDE309;
+  --dark-accent-color: #003064;
+  --background-color-default: rgba(50, 50, 50, 1);
+  --bluePattern: url("images/bluePattern.jpg");
+  --smoothSnapTransition: all .4s cubic-bezier(.86,.06,.6,.61);
+
+  /*-----Font Families--------*/
+  --sans-serif: "Raleway", sans-serif;
+  --serif: "Girassol", serif;
+  --display: "octin_spraypainta_regular", sans-serif;
+
+  /*------SVG Specific--------*/
+  --black: #000000;
+  --white: #ffffff;
+}
+/*==================DESKTOP STYLES===================================*/
+
+
+
+  /*-------------Default Font Styling-------------*/
+
+  h1 {
+    font-family: var(--display);
+    font-size: 3em;
+    text-align: center;
+    color: var(--white);
+  }
+
+  h2 {
+    font-family: var(--sans-serif);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.25em;
+    text-align: center;
+    color: var(--white);
+  }
+
+  h3 {
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 1.75em;
+    text-align: center;
+    color: var(--white);
+  }
+
+  h4 {
+    font-family: var(--sans-serif);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.125em;
+    text-align: center;
+    color: var(--white);
+  }
+
+  h5 {
+    font-family: var(--sans-serif);
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    color: var(--white);
+  }
+
+  p {
+    font-family: var(--sans-serif);
+    font-weight: 400;
+    font-size: 1.15em;
+    padding: 0 1em;
+    color: var(--white);
+  }
+
+  a {
+    font-family: var(--sans-serif);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.15em;
+    color: var(--secondary-color);
+  }
+
+  button {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-family: var(--display);
+    font-size: 1.75em;
+    color: var(--black);
+    text-shadow: 4px 4px 0px #3AA7DF, -4px -4px 0px var(--white);
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: inset 4px 4px 0px #fcb040, inset -4px -4px 0px #3AA7DF;
+    transition: none;
+  }
+
+  button:hover {
+    box-shadow: inset 4px 4px 0px #3AA7DF, inset -4px -4px 0px #fcb040;
+  }
+
+  button:focus {outline: none;}
+
+  .flag {
+    background-color: var(--accent-color);
+    padding: 0.25rem;
+    color: var(--black);
+  }
+
+  /*------------Default Block Styling--------*/
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+  }
+
+  .content {
+    width: 100vw;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.2s ease;
+  }
+
+  .content.blur {
+    filter: grayscale(1);
+    opacity: 0.4;
+  }
+
+  div {
+    min-height: 100px;
+  }
+
+  .primary {
+    background-color: var(--primary-color);
+  }
+
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .accent {
+    background-color: var(--accent-color);
+  }
+
+  .darkAccent {
+    background-color: var(--dark-accent-color);
+  }
+
+  .pattern {
+    background: var(--bluePattern);
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*----------Navigation------------*/
+
+
+  .navToggle, .navLogo, .navGive {
+    position: relative;
+    top: 1.5rem;
+  }
+
+.nav {
+  position: fixed;
+  background-color: var(--secondary-color);
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  padding:0vw;
+  left: -100vw;
+  text-align: center;
+  z-index: 1000;
+  transition: var(--smoothSnapTransition);
+}
+
+.offcanvas {
+  position: fixed;
+  padding-top: 20vh;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  background: url('images/brick.png');
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: right;
+  z-index: 1000;
+  transition: var(--smoothSnapTransition);
+}
+
+.offcanvas.active {
+  width: 30vw;
+  left: 0vw;
+}
+
+.offcanvas button {
+    color: var(--black);
+    background-color: var(--white);
+    border: none;
+    box-shadow: none;
+    text-shadow: 2px 2px 0px #3AA7DF, -2px -2px 0px var(--black);
+    position: relative;
+    left: -5vw;
+    font-family: var(--display);
+    cursor: pointer;
+    transition: none;
+}
+
+.offcanvas button:hover {
+  box-shadow: 4px 4px 0px #3AA7DF, -4px -4px 0px var(--black);
+}
+
+.offcanvas h3 {
+  font-family: var(--display);
+  position: relative;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  left: -5vw;
+  color: var(--white);
+}
+
+.offcanvas h3:hover {
+  text-shadow: 4px 4px 0px #3AA7DF, -4px -4px 0px var(--black);
+}
+
+.nav h3 {
+  position: relative;
+  color: var(--white);
+  font-weight: 400;
+}
+
+.nav h3, .nav button {
+  top: -7vh;
+}
+
+.key h3 {
+  text-shadow: 4px 4px 0px #3AA7DF, -4px -4px 0px var(--black);
+}
+
+.nav svg {
+  padding: 2vh 0;
+  width: 40%;
+  height: 10%;
+  transform: translateX(100vw);
+  transition: var(--smoothSnapTransition);
+}
+
+.navToggle, .navLogo, .navGive {
+  position: relative;
+  cursor: pointer;
+  top: 0;
+}
+
+.navToggle {
+  margin: 0 1em 0 0;
+  float: left;
+  left: 4vw;
+  top: 4vw;
+}
+
+.navGive {
+  margin: 0 0 0 1em;
+  float: right;
+  top: 4vw;
+  right: 4vw;
+}
+
+.navLogo {
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+}
+
+.exit {
+  background-color: var(--white);
+  display: block;
+  margin: 0 auto;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 10000px;
+  position: relative;
+  box-shadow: none;
+  top: 5vh;
+  left: -5vw;
+  padding: 0.25em;
+  width: 5em;
+  height: 5em;
+  cursor: pointer;
+}
+
+.exit:hover {
+  box-shadow: 4px 4px 0px #3AA7DF, -4px -4px 0px var(--black);
+}
+
+.line-cross1-a, .line-cross1-b {
+  width: 10vw;
+  height: 10vw;
+}
+
+.st0, .st1, .st2, .st3 {
+  fill: var(--white);
+  transition: var(--smoothSnapTransition);
+}
+
+.nav.active svg {
+  padding: 2vh 0;
+  width: 40%;
+  transform: translateX(100vw);
+}
+
+
+.navDarken {
+  height: 200px;
+  width: 100vw;
+  display: block;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent);
+  background-blend-mode: multiply;
+  position: fixed;
+  top: 0;
+  z-index: 900;
+}
+
+  /*------Language Toggle----------*/
+
+  .language {
+    display: block;
+    position: fixed;
+    left: 70vw;
+    z-index: 900;
+    bottom: 1em;
+  }
+
+  input {display: none;}
+
+  .noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  }
+
+  input:focus {outline:none;}
+
+  label {
+  	--w: 90px;
+  	--p: 2px;
+  	--ease: cubic-bezier(0.165, 0.84, 0.44, 1);
+  	position: relative;
+  	padding: var(--p);
+  	width: var(--w);
+  	border: 2px solid var(--secondary);
+  	border-radius: var(--w);
+    font-family: var(--sans-serif);
+  	cursor: pointer;
+  	background: var(--base);
+  }
+
+  label:before, label:after {
+  	position: absolute;
+  	width: 50%;
+  	top: calc(50% - .6em);
+  	display: inline-block;
+  	text-align: center;
+  	font-size: 2em;
+  	color: var(--white);
+  	transition: all .6s var(--ease);
+  	z-index: 10;
+  }
+
+  label:before {
+  	content: 'es';
+  	left: 8.5;
+    transform: translateY(-20%);
+  	color: var(--primary-color);
+  }
+  label:after {
+  	content: 'en';
+    position: relative;
+    transform: translateY(-110%);
+  	left: 113%;
+  }
+
+  label i {
+  	--d: calc(var(--w)/2 - var(--p)/2);
+  	position: relative;
+  	display: block;
+  	height: var(--d);
+  	width: var(--d);
+  	border: 1px solid var(--white);
+  	border-radius: 100%;
+  	background: var(--white);
+  	transition: all .6s var(--ease);
+  }
+
+  input[type="checkbox"]:checked + label i {
+  	transform: translatex(var(--d));
+  }
+
+  input[type="checkbox"]:checked + label:before {
+  	color: var(--white);
+  }
+
+  input[type="checkbox"]:checked + label:after {
+  	color: var(--primary-color);
+  }
+
+
+  /*----------Blocks---------------*/
+
+  .heroArrow {
+    top: 20vh;
+  }
+
+  .infoText p {
+    font-size: 2em;
+  }
+
+  .block {
+    display: block;
+    position: relative;
+    width: 100vw;
+    min-height: 25vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+  .block.hero p {
+    letter-spacing: .15rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 80vh;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .text {
+    padding: 1em;
+  }
+
+  .text h1 {
+    text-shadow: 4px 4px 0px #3AA7DF, -4px -4px 0px var(--black);
+  }
+
+  .text h2 {
+    color: var(--white);
+  }
+
+  .hero {
+    filter: blur(0rem);
+    height: 100vh;
+    background-color: var(--secondary-color);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.25em;
+    color: var(--white);
+  }
+
+  .hero.blur {
+    filter: blur(3rem);
+  }
+
+  .hero button {
+    background-color: var(--white);
+    font-size: 1.75em;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .hero button:hover {
+    padding: 1em 3em;
+  }
+
+  .arrow {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    top: 20vh;
+    cursor: pointer;
+  }
+
+  .about {
+    height: 90vh;
+    color: var(--white);
+    padding-top: 10vh;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  .about b {
+    font-weight: 400;
+  }
+
+  .about button {
+    background-color: var(--white);
+    border: none;
+  }
+
+  .about h1 {
+    font-size: 3em;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 7vh;
+    padding: 2em;
+  }
+
+  .about div {
+    padding-top: 5vh;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .info {
+    color: var(--white);
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .infoText {
+    background-color: var(--black);
+    padding: 15vh 20vw;
+  }
+
+  .info p {
+    line-height: 1rem;
+  }
+
+  .info button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .social {
+    background: var(--primary-color);
+    padding: 8vh 0 40vh;
+    width: 100vw;
+  }
+
+  .social h1, .social h3 {
+    color: var(--white);
+  }
+
+  .social button {
+    background-color: var(--white);
+    border: none;
+    font-size: 2.25rem;
+  }
+
+  .mapButton {
+    cursor: pointer;
+    box-shadow: none;
+  }
+
+  .mapButton:hover {
+    box-shadow: none;
+  }
+
+  /*---------Footer Styling------*/
+
+  footer, footer a {
+    background-color: var(--black);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1vw 0;
+  }
+
+  .buildings {
+    background-image: url('images/city.svg');
+    top: -20vh;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    }
+
+  footer h3 {
+    font-weight: 800;
+    font-size: 1.2em;
+    position: relative;
+    display: block;
+    top: -15vh;
+  }
+
+  footer ul {
+    text-align: center;
+    list-style: inside;
+    list-style-type: none;
+    width: 30vw;
+    position: relative;
+    top: 3em;
+    padding: 0 35vw;
+    cursor: pointer;
+  }
+
+  li {
+    font-family: var(--sans-serif);
+    font-weight: 500;
+    font-size: 1em;
+    display: inline-block;
+    padding: 0 1em;
+    position: relative;
+    top: -15vh;
+}
+
+  li:hover {
+    text-decoration: underline;
+  }
+
+  .homeFooter {
+    top: 0em;
+    min-height: 10px;
+    height: 20vh;
+  }
+
+  .aboutFooter {
+    top: 0em;
+    min-height: 10px;
+    height: 20vh;
+  }
+
+  .contactFooter {
+    top: 0vh;
+    min-height: 10px;
+    height: 30vh;
+  }
+
+  /*---------SVG Styling---------*/
+
+  .youtube{fill:#C3271A;}
+  .socialWhite{fill:var(--white);}
+  .twitter{fill:#29A9E1;}
+  .facebook{fill:#3E5C9A;}
+  .instagram{fill:url(#XMLID_2_);}
+
+  .socialLinks {
+    display: block;
+    margin: 0 auto;
+    width: 13.25rem;
+  }
+
+  .socialIcon {
+    margin: 0 auto;
+    display: inline-flex;
+    width: 3.5rem;
+    padding: 0 .25rem;
+    height: 3.5rem;
+    filter: drop-shadow(0 4px 3px var(--dark-accent-color));
+  }
+
+
+  /*--------ABOUT PAGE---------*/
+
+  .wesleyan {
+    position: relative;
+    display: block;
+    width: 100vw;
+    padding: 4em 2em 0em 2em;
+    color: var(--white);
+    background-color: #3AA7DF;
+  }
+
+  .wesleyan h5 {
+    margin: 0;
+    padding: 0 20vw 2em;
+    letter-spacing: .1em;
+  }
+
+  .wesleyan img {
+    display: block;
+    padding: 2em 0 ;
+    width: 40%;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  .values1 {
+    display: block;
+    position: relative;
+    background: url('images/urbanstripeblue.jpg');
+    background-size: 130%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 7em 25vw 0;
+  }
+
+  .values1 h5, .values2 h5, .values3 h5 {
+    padding: 3em 1em;
+    line-height: 2em;
+    color: #3AA7DF;
+    margin: 0;
+    font-weight: 800;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 1), -2px -2px 0 rgba(255, 255, 255, 1);
+  }
+
+  .values2 {
+    display: block;
+    position: relative;
+    background: url('images/urbanstripeorange.jpg');
+    background-size: 130%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 7em 25vw 0;
+  }
+
+  .values3 {
+    display: block;
+    position: relative;
+    background: url('images/urbanstripepurple.jpg');
+    background-size: 130%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 7em 25vw 0;
+  }
+
+  .values1 h1, .values1 h2, .values1 p {color: var(--white); padding: .25em; background-color: #3AA7DF;}
+  .values2 h1, .values2 h2, .values2 p {color: var(--white); padding: .25em; background-color: #3AA7DF;}
+  .values3 h1, .values3 h2, .values3 p {color: var(--white); padding: .25em; background-color: #3AA7DF;}
+
+  .gather {
+    min-height: 30vh;
+    padding: 5em 0 13em;
+  }
+
+  .team {
+    background: url('images/graffiti.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    padding: 5em 19vw;
+  }
+
+  .team h1 {
+    margin: 0 0 1em 0;
+    font-size: 5em;
+    background-color: #3AA7DF;
+  }
+
+  .team h2 {
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--black);
+  }
+
+  .card {
+    width: 15vw;
+    height: 40vh;
+    margin: 2.5vw;
+    padding: 0 5vw;
+    display: inline-block;
+    overflow: hidden;
+    background: #3AA7DF;
+    box-shadow: 7px 7px 0 var(--black), -7px -7px 0 var(--white);
+  }
+
+  .card img {
+    width: 90%;
+    padding: 5%;
+  }
+
+  .card h5 {
+    position: relative;
+    font-size: 1.6em;
+    top: -2em;
+  }
+
+  .contact {
+    background: url('images/graffiti.jpg'), rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-blend-mode: multiply;
+    overflow: hidden;
+  }
+
+  .team.contact {
+    height: 90vh;
+    padding-top: 20vh;
+  }
+
+  .team.contact h1 {
+    font-size: 4em;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 1), -4px -4px 0 #3AA7DF;
+  }
+
+  .contactForm {
+    display: block;
+  }
+
+  #contactformlink {
+    display: none;
+  }
+
+  /*------------TABLET STYLING--------------*/
+  @media only screen and (max-width: 770px){
+
+    .info p {
+      line-height: 2rem;
+    }
+
+    footer ul {
+      width: 75vw;
+      padding: 0 12.5vw;
+    }
+
+    .offcanvas {
+      background: url('images/brick.jpg'), rgba(0, 0, 0, 0.5);
+      background-blend-mode: multiply;
+    }
+
+    .offcanvas.active {
+      width: 100vw;
+    }
+
+    .offcanvas h3, .offcanvas button, .exit {
+      font-size: 2.5em;
+      left: 0vw;
+    }
+
+    .block.hero p{
+      width: 50vw;
+      padding: 0 0vw;
+    }
+
+    .wesleyan {
+      width: 100vw;
+      padding: 4em 0;
+    }
+
+    .wesleyan img {
+      width: 70%;
+      padding: 2em 0 5em;
+    }
+
+    .wesleyan h5 {
+      width: 80vw;
+      padding: 0 10vw;
+      margin: 0 auto;
+      font-weight: 300;
+    }
+
+    .values1, .values2, .values3 {
+      padding: 0em;
+    }
+
+    .values1 {
+      background: url('images/bwcity.jpg'), rgba(0, 0, 0, 0.6);
+      background-blend-mode: multiply;
+      background-size: cover;
+      min-height: 70vh;
+      background-position: center;
+      background-attachment: default;
+      background-repeat: no-repeat;
+    }
+
+    .values1 h1 {
+      width: 50vw;
+      margin: 0 auto;
+      margin: .85em auto 0;
+    }
+
+    .values2 {
+      background: url('images/urbanstripeorange.jpg'), rgba(0, 0, 0, 0.6);
+      background-blend-mode: multiply;
+      background-size: cover;
+      min-height: 70vh;
+      background-position: center right;
+      background-attachment: default;
+      background-repeat: no-repeat;
+    }
+
+    .values3 {
+      background: url('images/tunnel.jpg'), rgba(0, 0, 0, 0.6);
+      background-blend-mode: multiply;
+      background-size: cover;
+      min-height: 70vh;
+      background-position: center;
+      background-attachment: default;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      width: 30vw;
+      height: 30vw;
+      margin: 2.5vw;
+      padding: 0 5vw;
+      display: inline-block;
+      overflow: hidden;
+      background: #3AA7DF;
+      box-shadow: 7px 7px 0 var(--black), -7px -7px 0 var(--white);
+    }
+
+    .team {
+      background: url('images/graffiti.jpg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      min-height: 60vh;
+      padding: 5em 2.5vw;
+    }
+
+    .team h2 {
+      color: white;
+      text-transform: uppercase;
+      background-color: var(--black);
+    }
+
+    .card {
+      width: 37vw;
+      height: 37vw;
+      margin: 2.5vw;
+      padding: 0 2.5vw;
+      display: inline-block;
+      overflow: hidden;
+      background: #3AA7DF;
+      box-shadow: 7px 7px 0 var(--black), -7px -7px 0 var(--white);
+    }
+
+    .card img {
+      display: block;
+      width: 70%;
+      padding-top: 2vw;
+      margin: 0 auto;
+    }
+
+    .card h4 {
+      margin: 0;
+    }
+
+    .card h5 {
+      position: relative;
+      font-size: 1em;
+      top: -2em;
+    }
+
+    .gather {
+      min-height: 40vh;
+    }
+
+    .aboutFooter {
+      top: 0em;
+    }
+
+    .contactFooter {
+      top: 0vh;
+    }
+
+    .team.contact {
+      max-height: 40vh;
+    }
+
+    .contactForm {
+      display: none;
+    }
+
+    #contactformlink {
+      display: block;
+      font-size: 3em;
+    }
+  }
+
+  /*------------MOBILE STYLING--------------*/
+  @media only screen and (max-width: 415px){
+
+    .arrow {
+      top: 10vh;
+    }
+
+    .about h1 {
+      font-size: 2.5em;
+      width: 50vw;
+      top: 3vh;
+       padding: .5em;
+    }
+
+    .about button {
+      margin-top: 1em;
+    }
+
+    .infoText {
+      padding: 5vw 5vw;
+      font-size: .75em;
+    }
+
+    .homeFooter {
+      top: 0em;
+      min-height: 10px;
+      height: 18vh;
+      padding-bottom: 4em;
+    }
+
+    .buildings {
+      background-image: url('images/city.svg');
+      top: -15vh;
+      background-position: center;
+      background-repeat:repeat-x;
+      position: relative;
+      width: 100vw;
+      height: 20vh;
+      }
+
+      li {
+        padding: 0 1em .5em;
+      }
+
+      .block.hero h1 {
+        padding: 0 1em;
+        font-size: 2em;
+      }
+
+      .wesleyan h2 {
+        font-size: 1.5em;
+      }
+
+      .wesleyan img {
+        padding: 0 0 2em;
+      }
+
+      .wesleyan h5 {
+        font-size: 1.35em;
+      }
+
+      .values1, .values2, .values3 {
+        padding: 0em;
+      }
+
+      .values1 h1, .values2 h1, .values3 h1{
+        font-size: 2em;
+        margin: 1em auto;
+      }
+
+      .values1 h5, .values2 h5, .values3 h5 {
+        padding: 1em;
+        line-height: 1.5em;
+        font-size: 1.5em;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 1), -1px -1px 0 rgba(255, 255, 255, 1);
+      }
+
+      .team h1 {
+        font-size: 3em;
+      }
+
+      .card {
+        width: 70vw;
+        height: 70vw;
+        margin: 1em 12.5vw;
+        padding: 0 2.5vw;
+        display: inline-block;
+        overflow: hidden;
+        background: #3AA7DF;
+        box-shadow: 7px 7px 0 var(--black), -7px -7px 0 var(--white);
+      }
+
+      .card img {
+        display: block;
+        width: 70%;
+        padding-top: 2vw;
+        margin: 0 auto;
+      }
+
+      .card h4 {
+        margin: 0;
+      }
+
+      .card h5 {
+        position: relative;
+        font-size: 1em;
+        top: -2em;
+      }
+
+      .gather {
+        font-size: .85em;
+        padding-bottom: 20vh;
+      }
+
+      .aboutFooter {
+        top: 0em;
+        min-height: 10px;
+        height: 20vh;
+      }
+
+      .credits h2 {
+        font-size: 1.5em;
+      }
+
+  }
+
+  /*------------SMALL MOBILE STYLING--------------*/
+  @media only screen and (max-width: 325px){
+
+    .offcanvas h3, .exit {
+      font-size: 1.5em;
+      padding: .25em;
+      left: 0vw;
+    }
+
+    .offcanvas button {
+      font-size: 1.5em;
+    }
+
+    .hero h2, .social h3 {
+      font-size: 1em;
+    }
+
+    .hero button {
+      font-size: 1em;
+    }
+
+    .about h1 {
+      font-size: 1.5em;
+    }
+
+    .info p {
+      font-size: 1.5em;
+      line-height: 1em;
+    }
+
+    .flag {
+      font-size: 1.5em;
+    }
+
+    .social button {
+      font-size: 1.5em;
+    }
+
+    .homeFooter {
+      top: 0em;
+    }
+
+    .aboutFooter {
+      top: 0em;
+    }
+
+    .contactFooter {
+      top: 0em;
+    }
+
+    .homeFooter, .aboutFooter, .contactFooter {
+      font-size: 1em;
+      padding-bottom: 5em;
+    }
+
+    .homeFooter h3, .aboutFooter h3, .contactFooter h3 {
+      font-size: .75em;
+    }
+
+    ul {
+      font-size: 1em;
+    }
+
+    li {
+      display: block;
+      position: relative;
+      top: -6em;
+    }
+
+    .block.hero {
+      padding: 0.15em;
+    }
+
+    .block.hero p{
+      font-size: .85em;
+    }
+
+    .wesleyan {
+      padding: 1em 0;
+    }
+
+    .wesleyan h2, .wesleyan h5 {
+      font-size: 1em;
+    }
+
+    .values1 h2, .values2 h2, .values3 h2 {
+      font-size: 1.5em;
+    }
+
+    .values1 h5, .values2 h5, .values3 h5 {
+      font-size: 1em;
+      text-shadow: none;
+      color: var(--white);
+    }
+
+    .team.contact {
+      padding-top: 30vh;
+    }
+
+    .team.contact h1{
+      font-size: 2.5em;
+    }
+
+    .team.contact h2{
+      font-size: 1.25em;
+    }
+
+    #contactformlink{
+      font-size: 2em;
+      margin-top: 2em;
+    }
+
+    .team.credits {
+      padding-top: 2em;
+    }
+    .credits h2 {
+      font-size: 1em;
+    }
+
+  }

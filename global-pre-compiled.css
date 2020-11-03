@@ -1,0 +1,1281 @@
+/*-------------Global Style Variables-----------*/
+
+:root {
+  /*-----Color Palette-------*/
+  --primary-color: rgba(1, 154, 183, 1);
+  --secondary-color: rgba(90, 90, 90, 1);
+  --accent-color: #FDE309;
+  --dark-accent-color: #003064;
+  --background-color-default: rgba(50, 50, 50, 1);
+  --bluePattern: url("images/bluePattern.jpg");
+  --smoothSnapTransition: all .4s cubic-bezier(.86,.06,.6,.61);
+
+  /*-----Font Families--------*/
+  --sans-serif: "Alegreya Sans SC", sans-serif;
+  --serif: "Girassol", serif;
+  --display: "octin_spraypainta_regular", sans-serif;
+
+  /*------SVG Specific--------*/
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/*==================SMALL MOBILE STYLES===================================*/
+
+@media screen and (max-width: 350px) {
+
+  /*-------------Default Font Styling-------------*/
+
+  h1 {
+    font-family: var(--display);
+    font-size: 3em;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: var(--sans-serif);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.25em;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 1.75em;
+    text-align: center;
+  }
+
+  button {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-family: var(--sans-serif);
+    font-size: 1em;
+    padding: .5em 1em;
+    border-radius: 1000px;
+    text-transform: uppercase;
+  }
+
+  /*----------Navigation------------*/
+
+  .navToggle, .navLogo, .navGive {
+    position: relative;
+    top: 0;
+  }
+
+  .navToggle {
+    margin: 0 1em 0 0;
+  }
+
+  /*----------Blocks---------------*/
+
+  .arrow {
+    transform: translateY(-10vh);
+  }
+
+  .social button {
+    font-size: 1.65rem;
+  }
+
+  /*---------Footer Styling------*/
+
+  footer {
+    background-color: #333333;
+    color: rgba(175, 175, 175, 1);
+    padding: 1vw 0;
+    top: 250vh;
+    box-shadow: inset 0 0px 30px rgba(50, 50, 50, 0.8);
+  }
+
+  .footer {
+    top: 270vh;
+    min-height: 10px;
+    height: 20vh;
+  }
+
+  .buildings {
+    background-image: url('images/city.svg');
+    top: 0vh;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 17vh;
+    }
+
+  footer h3 {
+    font-weight: 400;
+    position: relative;
+    display: block;
+    top: -15vh;
+  }
+
+}
+
+/*==================MOBILE STYLES===================================*/
+
+@media screen and (max-width: 425px) {
+/*-------------Default Font Styling-------------*/
+
+  h1, h2, h3, h4, h5 {
+    color: var(--white);
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-size: 3em;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: var(--sans-serif);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.15em;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: var(--sans-serif);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.125em;
+    text-align: center;
+  }
+
+  h5 {
+    font-family: var(--sans-serif);
+    text-transform: uppercase;
+    font-size: 1.15em;
+    text-align: center;
+  }
+
+  p {
+    font-family: var(--sans-serif);
+    font-weight: 400;
+    font-size: 1.15em;
+    padding: 0 1em;
+  }
+
+  a {
+    font-family: var(--sans-serif);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.15em;
+    color: var(--secondary-color);
+  }
+
+  button {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-family: var(--sans-serif);
+    font-size: 2.15em;
+    padding: .5em 1em;
+    border-radius: 1000px;
+    text-transform: uppercase;
+  }
+
+  button:focus {outline: none;}
+
+  .flag {
+    background-color: var(--accent-color);
+    padding: 0.25rem;
+    color: var(--secondary-color);
+  }
+
+  /*------------Default Block Styling--------*/
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+  }
+
+  .content {
+    width: 100vw;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.2s ease;
+  }
+
+  .content.blur {
+    filter: grayscale(1);
+    opacity: 0.4;
+  }
+
+  div {
+    min-height: 100px;
+  }
+
+  .primary {
+    background-color: var(--primary-color);
+  }
+
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .accent {
+    background-color: var(--accent-color);
+  }
+
+  .darkAccent {
+    background-color: var(--dark-accent-color);
+  }
+
+  .pattern {
+    background: var(--bluePattern);
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*-------------Navigation-----------*/
+
+  .nav {
+    position: fixed;
+    background-color: var(--secondary-color);
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding:0vw;
+    left: -100vw;
+    text-align: center;
+    z-index: 1000;
+    transition: var(--smoothSnapTransition);
+  }
+
+  .offcanvas {
+    position: fixed;
+    padding-top: 20vh;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    background: url('images/brick.jpg'), var(--secondary-color);
+    background-blend-mode: multiply;
+    background-position: right;
+    z-index: 1000;
+    transition: var(--smoothSnapTransition);
+  }
+
+  .offcanvas.active {
+    width: 100vw;
+    left: 0vw;
+  }
+
+  .offcanvas button {
+      color: var(--secondary-color);
+      background-color: var(--white);
+      border: none;
+      font-family: var(--display);
+      cursor: pointer;
+  }
+
+  .offcanvas h3 {
+    font-family: var(--display);
+    position: relative;
+  }
+
+  .nav h3 {
+    position: relative;
+    color: var(--white);
+    font-weight: 400;
+  }
+
+  .nav h3, .nav button {
+    top: -7vh;
+  }
+
+  .nav svg {
+    padding: 2vh 0;
+    width: 40%;
+    height: 10%;
+    transform: translateX(100vw);
+    transition: var(--smoothSnapTransition);
+  }
+
+  .navToggle, .navLogo, .navGive {
+    position: relative;
+    cursor: pointer;
+    top: 0;
+  }
+
+  .navToggle {
+    margin: 0 1em 0 0;
+  }
+
+  .navGive {
+    margin: 0 0 0 1em;
+  }
+
+  .navLogo {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+  }
+
+  .exit {
+    background-color: var(--white);
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 10000px;
+    position: relative;
+    top: 5vh;
+    padding: 4vw;
+  }
+
+  .line-cross1-a, .line-cross1-b {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .st0, .st1, .st2, .st3 {
+    fill: var(--white);
+    transition: var(--smoothSnapTransition);
+  }
+
+  .nav.active svg {
+    padding: 2vh 0;
+    width: 40%;
+    transform: translateX(100vw);
+  }
+
+
+  .navDarken {
+    height: 200px;
+    width: 100vw;
+    display: block;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent);
+    background-blend-mode: multiply;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+  }
+
+  /*-----------Language Toggle Styling--------*/
+
+.language {
+  display: block;
+  position: fixed;
+  left: 70vw;
+  z-index: 900;
+  bottom: 1em;
+}
+
+input {display: none;}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+input:focus {outline:none;}
+
+label {
+	--w: 90px;
+	--p: 2px;
+	--ease: cubic-bezier(0.165, 0.84, 0.44, 1);
+	position: relative;
+	padding: var(--p);
+	width: var(--w);
+	border: 2px solid var(--secondary);
+	border-radius: var(--w);
+  font-family: var(--sans-serif);
+	cursor: pointer;
+	background: var(--base);
+}
+
+label:before, label:after {
+	position: absolute;
+	width: 50%;
+	top: calc(50% - .6em);
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+	color: var(--white);
+	transition: all .6s var(--ease);
+	z-index: 10;
+}
+
+label:before {
+	content: 'es';
+	left: 8.5;
+  transform: translateY(-20%);
+	color: var(--primary-color);
+}
+label:after {
+	content: 'en';
+  position: relative;
+  transform: translateY(-110%);
+	left: 113%;
+}
+
+label i {
+	--d: calc(var(--w)/2 - var(--p)/2);
+	position: relative;
+	display: block;
+	height: var(--d);
+	width: var(--d);
+	border: 1px solid var(--white);
+	border-radius: 100%;
+	background: var(--white);
+	transition: all .6s var(--ease);
+}
+
+input[type="checkbox"]:checked + label i {
+	transform: translatex(var(--d));
+}
+
+input[type="checkbox"]:checked + label:before {
+	color: var(--white);
+}
+
+input[type="checkbox"]:checked + label:after {
+	color: var(--primary-color);
+}
+
+  /*------------Blocks-------------*/
+
+  .block {
+    display: block;
+    position: relative;
+    width: 100vw;
+    min-height: 25vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+  .text {
+    padding: 1em;
+  }
+
+  .hero {
+    filter: blur(0rem);
+    height: 100vh;
+    background-color: var(--secondary-color);
+    background-blend-mode: multiply;
+  }
+
+  .hero.blur {
+    filter: blur(3rem);
+  }
+
+  .hero button {
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-size: 1.75em;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .hero button:hover {
+    padding: 1em 3em;
+  }
+
+  .arrow {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    top: 20vh;
+    cursor: pointer;
+  }
+
+  .about {
+    height: 90vh;
+    color: var(--white);
+    padding-top: 10vh;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+  }
+
+  .about b {
+    font-weight: 400;
+  }
+
+  .about button {
+    color: var(--primary-color);
+    background-color: var(--white);
+    border: none;
+  }
+
+  .about h1 {
+    font-size: 2em;
+  }
+
+  .about div {
+    padding-top: 0;
+    width: 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .info {
+    color: var(--white);
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .infoText {
+    background-color: var(--black);
+  }
+
+  .info p {
+    line-height: 1rem;
+  }
+
+  .info button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .social {
+    background: var(--primary-color);
+    padding: 8vh 0 40vh;
+    width: 100vw;
+  }
+
+  .social button {
+    color: var(--primary-color);
+    background-color: var(--white);
+    border: none;
+    font-size: 2rem;
+  }
+
+  .mapButton {
+    cursor: pointer;
+  }
+
+  /*---------Footer Styling------*/
+
+  .footer {
+    top: 170vh;
+    min-height: 10px;
+    height: 20vh;
+  }
+
+  footer {
+    background-color: var(--black);
+    color: rgba(175, 175, 175, 1);
+    padding: 1vw 0;
+  }
+
+  .buildings {
+    background-image: url('images/city.svg');
+    background-repeat: no-repeat;
+    top: -10vh;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    }
+
+  footer h3 {
+    font-weight: 400;
+    font-size: 1em;
+    position: relative;
+    display: block;
+    top: -13vh;
+  }
+
+  /*---------SVG Styling---------*/
+
+  .youtube{fill:#C3271A;}
+	.socialWhite{fill:var(--white);}
+	.twitter{fill:#29A9E1;}
+	.facebook{fill:#3E5C9A;}
+	.instagram{fill:url(#XMLID_2_);}
+
+  .socialLinks {
+    display: block;
+    margin: 0 auto;
+    width: 13.25rem;
+  }
+
+  .socialIcon {
+    margin: 0 auto;
+    display: inline-flex;
+    width: 3.5rem;
+    padding: 0 .25rem;
+    height: 3.5rem;
+    filter: drop-shadow(0 4px 3px var(--dark-accent-color));
+  }
+}
+
+
+/*==================TABLET STYLES===================================*/
+
+@media screen and (max-width: 770px) {
+
+  /*-------------Default Font Styling-------------*/
+
+  h1 {
+    font-family: var(--display);
+    font-size: 3em;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: var(--sans-serif);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.25em;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 1.75em;
+    text-align: center;
+  }
+
+  button {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-family: var(--sans-serif);
+    font-size: 1.75em;
+    padding: .5em 1em;
+    border-radius: 1000px;
+    text-transform: uppercase;
+  }
+
+  /*----------Navigation------------*/
+  .navToggle, .navLogo, .navGive {
+    position: relative;
+    top: 1.5rem;
+  }
+
+  .navToggle {
+    margin: 0 1em 0 0;
+  }
+
+
+  /*----------Blocks---------------*/
+
+  .arrow {
+    top: 15vh;
+  }
+
+  .infoText {
+    padding: 15vh 20vw 0 20vw;
+  }
+
+  .social button {
+    font-size: 1.65rem;
+  }
+
+  /*---------Footer Styling------*/
+
+  footer {
+    background-color: var(--black);
+    color: rgba(175, 175, 175, 1);
+    padding: 1vw 0;
+  }
+
+  .footer {
+    top: 220vh;
+    min-height: 10px;
+    height: 20vh;
+  }
+
+  .buildings {
+    background-image: url('images/city.svg');
+    top: -16vh;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 17vh;
+    }
+
+  footer h3 {
+    font-weight: 400;
+    position: relative;
+    display: block;
+    top: -15vh;
+  }
+
+}
+
+/*==================DESKTOP STYLES===================================*/
+
+@media screen and (min-width: 771px) {
+
+  /*-------------Default Font Styling-------------*/
+
+  h1 {
+    font-family: var(--display);
+    font-size: 3em;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: var(--sans-serif);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 2.25em;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 1.75em;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: var(--sans-serif);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 0.125em;
+    text-align: center;
+  }
+
+  h5 {
+    font-family: var(--sans-serif);
+    text-transform: uppercase;
+    font-size: 1.15em;
+    text-align: center;
+  }
+
+  p {
+    font-family: var(--sans-serif);
+    font-weight: 400;
+    font-size: 1.15em;
+    padding: 0 1em;
+  }
+
+  a {
+    font-family: var(--sans-serif);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.15em;
+    color: var(--secondary-color);
+  }
+
+  button {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-family: var(--sans-serif);
+    font-size: 1.75em;
+    padding: .5em 1em;
+    border-radius: 1000px;
+    text-transform: uppercase;
+  }
+
+  button:focus {outline: none;}
+
+  .flag {
+    background-color: var(--accent-color);
+    padding: 0.25rem;
+    color: var(--secondary-color);
+  }
+
+  /*------------Default Block Styling--------*/
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+  }
+
+  .content {
+    width: 100vw;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.2s ease;
+  }
+
+  .content.blur {
+    filter: grayscale(1);
+    opacity: 0.4;
+  }
+
+  div {
+    min-height: 100px;
+  }
+
+  .primary {
+    background-color: var(--primary-color);
+  }
+
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .accent {
+    background-color: var(--accent-color);
+  }
+
+  .darkAccent {
+    background-color: var(--dark-accent-color);
+  }
+
+  .pattern {
+    background: var(--bluePattern);
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*----------Navigation------------*/
+
+
+  .navToggle, .navLogo, .navGive {
+    position: relative;
+    top: 1.5rem;
+  }
+
+.nav {
+  position: fixed;
+  background-color: var(--secondary-color);
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  padding:0vw;
+  left: -100vw;
+  text-align: center;
+  z-index: 1000;
+  transition: var(--smoothSnapTransition);
+}
+
+.offcanvas {
+  position: fixed;
+  padding-top: 20vh;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  background: url('images/brick.png');
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: right;
+  z-index: 1000;
+  transition: var(--smoothSnapTransition);
+}
+
+.offcanvas.active {
+  width: 30vw;
+  left: 0vw;
+}
+
+.offcanvas button {
+    color: var(--secondary-color);
+    background-color: var(--white);
+    border: none;
+    position: relative;
+    left: -5vw;
+    font-family: var(--display);
+    cursor: pointer;
+}
+
+.offcanvas h3 {
+  font-family: var(--display);
+  position: relative;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  left: -5vw;
+  color: var(--white);
+}
+
+.nav h3 {
+  position: relative;
+  color: var(--white);
+  font-weight: 400;
+}
+
+.nav h3, .nav button {
+  top: -7vh;
+}
+
+.nav svg {
+  padding: 2vh 0;
+  width: 40%;
+  height: 10%;
+  transform: translateX(100vw);
+  transition: var(--smoothSnapTransition);
+}
+
+.navToggle, .navLogo, .navGive {
+  position: relative;
+  cursor: pointer;
+  top: 0;
+}
+
+.navToggle {
+  margin: 0 1em 0 0;
+  float: left;
+  left: 4vw;
+  top: 4vw;
+}
+
+.navGive {
+  margin: 0 0 0 1em;
+  float: right;
+  top: 4vw;
+  right: 4vw;
+}
+
+.navLogo {
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+}
+
+.exit {
+  background-color: var(--white);
+  display: block;
+  margin: 0 auto;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 10000px;
+  position: relative;
+  top: 5vh;
+  left: -5vw;
+  padding: 0.25em;
+  width: 5em;
+  height: 5em;
+  cursor: pointer;
+}
+
+.line-cross1-a, .line-cross1-b {
+  width: 10vw;
+  height: 10vw;
+}
+
+.st0, .st1, .st2, .st3 {
+  fill: var(--white);
+  transition: var(--smoothSnapTransition);
+}
+
+.nav.active svg {
+  padding: 2vh 0;
+  width: 40%;
+  transform: translateX(100vw);
+}
+
+
+.navDarken {
+  height: 200px;
+  width: 100vw;
+  display: block;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent);
+  background-blend-mode: multiply;
+  position: fixed;
+  top: 0;
+  z-index: 900;
+}
+
+  /*------Language Toggle----------*/
+
+  .language {
+    display: block;
+    position: fixed;
+    left: 70vw;
+    z-index: 900;
+    bottom: 1em;
+  }
+
+  input {display: none;}
+
+  .noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  }
+
+  input:focus {outline:none;}
+
+  label {
+  	--w: 90px;
+  	--p: 2px;
+  	--ease: cubic-bezier(0.165, 0.84, 0.44, 1);
+  	position: relative;
+  	padding: var(--p);
+  	width: var(--w);
+  	border: 2px solid var(--secondary);
+  	border-radius: var(--w);
+    font-family: var(--sans-serif);
+  	cursor: pointer;
+  	background: var(--base);
+  }
+
+  label:before, label:after {
+  	position: absolute;
+  	width: 50%;
+  	top: calc(50% - .6em);
+  	display: inline-block;
+  	text-align: center;
+  	font-size: 2em;
+  	color: var(--white);
+  	transition: all .6s var(--ease);
+  	z-index: 10;
+  }
+
+  label:before {
+  	content: 'es';
+  	left: 8.5;
+    transform: translateY(-20%);
+  	color: var(--primary-color);
+  }
+  label:after {
+  	content: 'en';
+    position: relative;
+    transform: translateY(-110%);
+  	left: 113%;
+  }
+
+  label i {
+  	--d: calc(var(--w)/2 - var(--p)/2);
+  	position: relative;
+  	display: block;
+  	height: var(--d);
+  	width: var(--d);
+  	border: 1px solid var(--white);
+  	border-radius: 100%;
+  	background: var(--white);
+  	transition: all .6s var(--ease);
+  }
+
+  input[type="checkbox"]:checked + label i {
+  	transform: translatex(var(--d));
+  }
+
+  input[type="checkbox"]:checked + label:before {
+  	color: var(--white);
+  }
+
+  input[type="checkbox"]:checked + label:after {
+  	color: var(--primary-color);
+  }
+
+
+  /*----------Blocks---------------*/
+
+  .heroArrow {
+    top: 20vh;
+  }
+
+  .infoText p {
+    font-size: 2em;
+  }
+
+  .block {
+    display: block;
+    position: relative;
+    width: 100vw;
+    min-height: 25vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+  .text {
+    padding: 1em;
+  }
+
+  .hero {
+    filter: blur(0rem);
+    height: 100vh;
+    background-color: var(--secondary-color);
+    background-blend-mode: multiply;
+    color: var(--white);
+  }
+
+  .hero.blur {
+    filter: blur(3rem);
+  }
+
+  .hero button {
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-size: 1.75em;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .hero button:hover {
+    padding: 1em 3em;
+  }
+
+  .arrow {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    top: 20vh;
+    cursor: pointer;
+  }
+
+  .about {
+    height: 90vh;
+    color: var(--white);
+    padding-top: 10vh;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  .about b {
+    font-weight: 400;
+  }
+
+  .about button {
+    color: var(--primary-color);
+    background-color: var(--white);
+    border: none;
+  }
+
+  .about h1 {
+    font-size: 3em;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 7vh;
+  }
+
+  .about div {
+    padding-top: 5vh;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .info {
+    color: var(--white);
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .infoText {
+    background-color: var(--black);
+    padding: 15vh 20vw;
+  }
+
+  .info p {
+    line-height: 1rem;
+  }
+
+  .info button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .social {
+    background: var(--primary-color);
+    padding: 8vh 0 40vh;
+    width: 100vw;
+  }
+
+  .social h1, .social h3 {
+    color: var(--white);
+  }
+
+  .social button {
+    color: var(--primary-color);
+    background-color: var(--white);
+    border: none;
+    font-size: 1.65rem;
+  }
+
+  .mapButton {
+    cursor: pointer;
+  }
+
+  /*---------Footer Styling------*/
+
+  footer {
+    background-color: var(--black);
+    color: #b2b2b2;
+    padding: 1vw 0;
+  }
+
+  .buildings {
+    background-image: url('images/city.svg');
+    top: -20vh;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    }
+
+  footer h3 {
+    font-weight: 400;
+    font-size: 2em;
+    position: relative;
+    display: block;
+    top: -15vh;
+  }
+
+  .footer {
+    top: 130vh;
+    min-height: 10px;
+    height: 20vh;
+  }
+
+  /*---------SVG Styling---------*/
+
+  .youtube{fill:#C3271A;}
+  .socialWhite{fill:var(--white);}
+  .twitter{fill:#29A9E1;}
+  .facebook{fill:#3E5C9A;}
+  .instagram{fill:url(#XMLID_2_);}
+
+  .socialLinks {
+    display: block;
+    margin: 0 auto;
+    width: 13.25rem;
+  }
+
+  .socialIcon {
+    margin: 0 auto;
+    display: inline-flex;
+    width: 3.5rem;
+    padding: 0 .25rem;
+    height: 3.5rem;
+    filter: drop-shadow(0 4px 3px var(--dark-accent-color));
+  }
+
+}
